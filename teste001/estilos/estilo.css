@@ -1,0 +1,47 @@
+@charset "UTF-8"; 
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#menu {
+    display: flex;
+    justify-content: end;
+}
+
+#botao {
+    transform: skewX(-13deg);  /*deita um pouco o botão*/
+    height:40px;
+    width: 100px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-right: 10px;
+    background-color: rgb(255, 174, 0);
+    border: 1px solid black;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#escondido {
+    display: none;
+    width: 150px;
+    height: 100vh;
+    font-size: 17px;
+    background-color: white;
+    border-left: 2px solid black;
+}
+
+#seta {
+    margin: 10px 0px -17px 10px;
+    cursor: pointer;
+    border: none;
+    font-size: 15px;
+}
+
+.span {
+    margin-top: 20px;
+    cursor: pointer;
+    text-align: center;
+}
+
