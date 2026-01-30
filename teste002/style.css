@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body > h1 {
+    margin: 20px;
+    font-size: 3rem;
+    text-align: center;
+}
+
+#container {
+    min-width: 350px;
+    max-width: 500px;
+    margin: auto;
+}
+
+.carrossel {
+    display: grid;
+    grid-auto-flow: column;
+    
+}
+
+.escondido {
+    display: none;
+}
+
+.cards {
+    width: 300px;
+    height: 200px;
+    background-image: radial-gradient(blue, purple);
+    border-radius: 20px;
+}
