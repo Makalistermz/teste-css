@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+@keyframes title-animation {
+    from {
+        transform: translateY(700px);
+        font-size: 7rem;
+    }
+
+    to {
+        transform: translateY(0px);
+    }
+}
+
+.title {
+    font-size: 3rem;
+    text-align: center;
+
+    animation: title-animation 1s ease-in-out 1;
+}
